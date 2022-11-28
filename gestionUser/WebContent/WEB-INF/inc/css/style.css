@@ -1,0 +1,169 @@
+* 
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0px;
+	padding: 0px; 
+	background: #F1F1F1; 
+  font-family: "Roboto", sans-serif; 
+}
+#entete, #menu, #corps, #pied 
+{
+	position: absolute;
+	left: 0%;
+	width: 100%;
+}
+
+#entete
+{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	height:10%;
+	width: 100%;
+	color: white;
+	font-family: "agency FB"; 
+	font-size: 2.5em;
+	padding: 10px;
+	text-align: center; 
+	text-transform: uppercase;
+	background-color: gray;
+
+}
+#menu 
+{ 
+	top: 10%;
+	height:6%;
+	color: white;
+	text-align: center; 
+	background-color: black;
+	border-top: solid white 2px; 
+	
+}
+#menu ul, #menu li
+{
+	display: inline; 
+}
+#menu li a
+{
+	display: inline-block;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	border-left: solid white 2px;
+}
+#menu li a:hover
+{
+	border-bottom: solid #C70039 4px;
+}
+#menu li:last-child a
+{
+	border-right: solid white 2px;
+}
+#titre-principal
+{
+	text-align: center;
+}
+#corps
+{
+	align-content:center;
+	top: 16%;
+	height:84%;
+	padding: 10px;
+	padding-top: 0px; 
+	overflow: auto; 
+}
+#corps p
+{
+	
+	
+	line-height: 1.5;
+	text-align: justify;
+
+}
+#pied 
+{ 
+	bottom: 0%;
+	height:5%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+	text-align: 20%;
+}
+
+.article
+{
+	margin: 10px;
+	padding: 10px;
+	border:3px double black;
+	background-color: rgba(0, 255, 0, 0.1);
+}
+.erreur{
+	color:red;
+}
+table, th, td
+{
+	border: solid 1px bue;
+	border: solid 1px;
+	padding : 5px;
+}
+tr:first-child
+{
+	color: white;
+	background-color: #C70039;
+}
+table
+{
+	width: fit-content;
+	margin: auto;
+	border-collapse: collapse;
+}
+form{
+margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.formItem label
+{
+	margin: 0px;
+	display: inline-block;
+	width: 15%;
+	text-align: left;
+}
+.formItem input
+{
+	height: 20px;
+	border-color: grey;
+	padding : 10px;
+	margin:10px;
+	border-radius: 10px;
+}
+.formItem input[type="submit"]
+{
+	display: inline-block;
+	margin-top: 5px;
+	color: white;
+	width: 20%;
+	height: 30px;
+	background-color: grey;
+}
+#taille
+{
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	backgroung-color: #C70039;
+}
+button {
+  background: black;
+  color: white;
+}
+
